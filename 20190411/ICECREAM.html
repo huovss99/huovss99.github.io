@@ -30,8 +30,10 @@ else if(obj.value == "d") var k = name_d;
     target.appendChild(opt);
     }
     }
+ function nameif(frm){
+  document.getElementById("aa").innerHTML="선택하신 SSD는 " + frm.value + "입니다." ;
+ }
     </script>
-
 </head>
 <body>
 <section>
@@ -45,4 +47,9 @@ else if(obj.value == "d") var k = name_d;
 <option value="d">빙그레</option></select>
 <label for="name">NAME</label>
 <select id="namex" name="name"></select>
-</fieldset></section></body></html>
+</fieldset>
+<fieldset>
+<legend>결과</legend>
+<p id="aa"> </p>
+</fieldset>
+</section></body></html>
