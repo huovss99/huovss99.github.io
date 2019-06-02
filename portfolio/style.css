@@ -12,6 +12,10 @@ header, nav, section, article, aside, footer
 .menu li:hover{background-color:mediumpurple;}
 .banner li{border:2px solid purple; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
 .banner li img {width:30%; vertical-align:middle;}
+a:link{ color:blueviolet; background-color:transparent; text-decoration:none; }
+a:visited{ color:purple; background-color:transparent; text-decoration:underline; }
+a:hover{ color:orange; background-color:transparent; text-decoration:underline; }
+a:active{ color:gray; background-color:transparent; text-decoration:underline; }
 /* for mobile*/
 [class*="col-"]{width:100%;}
 @media only screen and (min-width: 600px){ .col-m-3{width:25%;} .col-m-9{width:75%;} .col-m-12{width:100%;} }
